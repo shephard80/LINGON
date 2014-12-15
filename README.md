@@ -1,4 +1,4 @@
 LINGON
 ======
 
-LINux General Operating Node
+LINux General ONline service
