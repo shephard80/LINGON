@@ -1,0 +1,63 @@
+Structure
+
+LIten Nätt Go Operativ Nod - LINGON
+==========================================================
+|-----> system_install.sh
+|-----> system_config.cfg
+|-----> Modules
+|		|-------> System
+|		|			|---> Syslog-ng
+|		|			|		|-------> syslog-ng.cfg
+|		|			|		|-------> syslog-ng.conf
+|		|			|		|-------> syslog-ng.sql
+|		|			|---> OpenSSH
+|		|					|-------> openssh.cfg
+|		|					|-------> openssh.conf
+|		|-------> PKI
+|		|			|---> OpenSSL
+|		|					|-------> openssl_install.cfg
+|		|					|-------> openssl.conf
+|		|					
+|		|-------> File
+|		|			|---> ProFTPd
+|		|			|		|-------> proftpd_install.cfg
+|		|			|		|-------> proftpd.conf
+|		|			|		|-------> proftpd.sql
+|		|			|---> ClamAV
+|		|					|-------> clamav_install.cfg
+|		|					|-------> clamav.conf
+|		|					|-------> clamav.sql
+|		|-------> SQL
+|		|			|---> MySQL
+|		|					|-------> mysql_install.cfg
+|		|					|-------> mysql.conf
+|		|					|-------> mysql.sql
+|		|-------> DNS
+|		|			|---> PowerDNS
+|		|					|-------> powerdns.cfg
+|		|					|-------> powerdns.conf
+|		|					|-------> powerdns.sql
+|		|-------> Mail
+|		|			|---> Exim
+|		|			|		|-------> exim_install.cfg
+|		|			|		|-------> exim.conf
+|		|			|		|-------> exim.sql
+|		|			|---> Dovecot
+|		|			|		|-------> dovecot_install.cfg
+|		|			|		|-------> dovecot.conf
+|		|			|		|-------> dovecot.sql
+|		|			|---> Spamassassin
+|		|					|-------> spamassassin_install.cfg
+|		|					|-------> spamassassin.conf
+|		|					|-------> spamassassin.sql
+|		|-------> Web
+|					|---> Lighttpd
+|							|-------> lighttpd_install.cfg
+|							|-------> lighttpd.conf
+|							|-------> lighttpd.sql
+|-----> Apps
+|		|-------> Roundcube
+|		|-------> phpMyAdmin
+|		|-------> Laravel
+|-----> Include
+		|-------> HashPasswd.php
